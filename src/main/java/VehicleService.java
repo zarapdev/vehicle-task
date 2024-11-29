@@ -1,3 +1,7 @@
-public class VehicleService {
+public interface VehicleService {
+
+    void addVehicle(Vehicle vehicle);
+    void getAllVehicles();
+
 
 }
